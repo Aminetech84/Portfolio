@@ -24,3 +24,7 @@ nav {
 header > section {
     height: 90%;
 }
+
+.font-1 {
+    font-size: 3em;
+}
