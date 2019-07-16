@@ -16,11 +16,16 @@ header {
     height: 100vh;
 }
 
-nav {
+nav a {
     color: black;
-    background-image: linear-gradient( #aaa , #ddd);
+    transition: ease-out;
+    transition-duration: 0.3s;
+    /*background-image: linear-gradient( #aaa , #ddd);*/
 }
-
+ nav a:hover {
+     transform: scale(1.1);
+     color:  rgb(119, 190, 181) ;
+ }
 header > section {
     height: 90%;
 }
@@ -29,3 +34,6 @@ header > section {
     font-size: 4em;
 }
 
+.imgg {
+    width: 100%;
+}
