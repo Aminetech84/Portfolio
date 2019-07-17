@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Amine Ouldaouali's Portfolio Website</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  <link rel="stylesheet" href="dist/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="dist/jquery.fancybox.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -43,14 +44,14 @@
         <h1 class="text-center h1 font-1 font-weight-bolder">My Name is Amine Ouldaouali</h1>
         <p class="text-center h2 font-italic">I'm a Javascript Developer</p>
         <div class="text-center">
-          <button type="submit" class="btn btn-info text-center text-uppercase mt-5">Hire Me</button>
+          <button type="submit" class="btn btn-info text-center text-uppercase font-italic mt-5">Hire Me</button>
         </div>
       </div>
     </section>
   </header>
 
   <!-- About me -->
-  <section class="container my-5 border">
+  <section class="container my-5">
     <!-- 
     <div class="row d-flex flex-column flex-lg-row flex-xl-row">
       <div class="col-4 justify-content-center align-self-center my-2">
@@ -63,22 +64,22 @@
         libero amet. Quod omnis molestiae delectus error quidem.</div>
     </div> -->
     <div class="row d-flex justify-content-lg-between flex-column flex-md-row flex-lg-row flex-xl-row p-auto ">
-      <div class="col-12 col-md-6 col-lg-5 mx-auto p-5 border">
+      <div class="col-12 col-md-5 col-lg-5 mx-auto my-2 p-1 border">
         <div class="text-center">
           <i class="fas fa-hands-helping fa-5x py-4"></i>
         </div>
         <h3 class="text-uppercase font-italic h3 ">About me</h3>
-        <p class="font-weight-light py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non inventore
+        <p class="font-weight-light p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non inventore
           reiciendis hic sequi debitis, quod odio libero sit labore expedita adipisci tenetur animi dolorum natus
           voluptatum qui provident illum a.</p>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-5 mx-auto p-5 border">
+      <div class="col-12 col-md-5 col-lg-5 mx-auto my-2 p-1 border">
         <div class="text-center">
           <i class="fas fa-hand-holding-heart fa-5x py-4"></i>
         </div>
         <h3 class="text-uppercase font-italic ">Skill Set</h3>
-        <p class="font-weight-light py-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus
+        <p class="font-weight-light p-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus
           similique nobis natus itaque omnis
           eaque.</p>
       </div>
@@ -86,22 +87,34 @@
     </div>
   </section>
 
-  <!-- Navifation Bar -->
+  <!-- Certificates -->
   <!--class="col-8 text-center  mx-auto justify-content-center align-self-center border"-->
   <section class="jumbotron jumbotron-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-5 col-lg-3">
-          <img class="imgg" src="certificates/certificatefe.JPG" alt="Front-end certificate">
+        <div class="col-12 col-md-5 col-lg-3 my-2">
+          <a href="certificates/certificatefe.JPG" data-fancybox="Certificates" data-caption="Front-end certificate">
+            <img class="imgg shadow" src="certificates/certificatefe.JPG" alt="Front-end certificate">
+          </a>
+
         </div>
-        <div class="col-12 col-md-5 col-lg-3">
-          <img class="imgg" src="certificates/certificatefe2.jpg" alt="2nd Front-end certificate">
+        <div class="col-12 col-md-5 col-lg-3 my-2">
+          <a href="certificates/certificatefe2.jpg" data-fancybox="Certificates" data-caption="2nd Front-end certificate">
+            <img class="imgg shadow" src="certificates/certificatefe2.jpg" alt="2nd Front-end certificate">
+          </a>
+
         </div>
-        <div class="col-12 col-md-5 col-lg-3">
-          <img class="imgg" src="certificates/certificatefs.JPG" alt="Full-stack certificate">
+        <div class="col-12 col-md-5 col-lg-3 my-2">
+          <a href="certificates/certificatefs.JPG" data-fancybox="Certificates" data-caption="Full-stack certificate">
+            <img class="imgg shadow" src="certificates/certificatefs.JPG" alt="Full-stack certificate">
+          </a>
+
         </div>
-        <div class="col-12 col-md-5 col-lg-3">
-          <img class="imgg" src="certificates/certificatean.JPG" alt="Android certificate">
+        <div class="col-12 col-md-5 col-lg-3 my-2">
+          <a href="certificates/certificatean.JPG" data-fancybox="Certificates" data-caption="Android certificate">
+            <img class="imgg shadow" src="certificates/certificatean.JPG" alt="Android certificate">
+          </a>
+
         </div>
       </div>
     </div>
@@ -111,10 +124,10 @@
   <!--Our Customers -->
 
   <!---->
-  <!-- Offers -->
+  <!-- Portfolio -->
   <section class="container my-5">
-    <div class="row justify-content-center align-self-center">
-      <div class="col-12 col-md-5 col-lg-3 m-2 border">
+    <div class="row m-2 justify-content-center align-self-center">
+      <div class="col-12 col-md-5 col-lg-3 m-2  border">
         <img src="img.jpg" alt="">
         <div class="row">
           <div class="col-6 border text-center">
@@ -189,16 +202,18 @@
 
 
     </div>
-    <div class="col-12 text-center">
-      <span class=" ">Load More!</span>
+    <div class="col-4 text-center mx-auto my-2">
+      <a href=""><button type="submit" class="btn btn-primary shadow">Load More!</button></a>
     </div>
+    <hr>
   </section>
 
 
-  
-  <section class="jumbotron jumbotron-fluid">
+
+  <section class="container">
+    <h3 class="h3 text-center">Contact me</h3>
     <form name="contact" method="POST" data-netlify="true" class="m-1">
-      <div class="col-12 col-md-8 col-lg-8 mx-auto justify-content-center align-self-center">
+      <div class="col-12 col-md-6 col-lg-6 mx-auto justify-content-center align-self-center">
         <div class="form-group">
           <label>Full Name</label>
           <input type="text" class="form-control" id="name" name="descripetion" required
@@ -211,9 +226,9 @@
         </div>
 
         <div class="form-group">
-          <label>Project Descripetion</label>
+          <label>Message</label>
           <textarea class="form-control" name="brief" required id="Description" rows="3"
-            placeholder="Enter more details about the project"></textarea>
+            placeholder="Enter message here"></textarea>
         </div>
 
         <div data-netlify-recaptcha="true"></div>
@@ -247,16 +262,17 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  <script src="dist/jquery-slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  <script src="dist/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous">
   </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  <script src="dist/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
   <script src="https://kit.fontawesome.com/29086ca2ec.js"></script>
+  <script src="dist/jquery.fancybox.min.js"></script>
   <script src="main.js"></script>
 </body>
 
