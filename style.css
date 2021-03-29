@@ -43,6 +43,10 @@ header > section {
 }
 
 .imgg {
-    width: 100%;
+    width: 15em;
+    
 }
 
+.g {
+    height: 7rem;
+}
